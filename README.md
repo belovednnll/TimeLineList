@@ -127,7 +127,7 @@ yarn # 或者 npm install
   }
 ```
 ### 最终效果
-![效果图](preview.jpg)
+![效果图](preview.jpg =300x)
 
 ### 项目功能组件及版本号
 

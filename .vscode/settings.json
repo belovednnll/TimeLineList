@@ -1,0 +1,8 @@
+{
+    "search.exclude": { 
+        "system/": true, 
+        "!/system/*/.ps*": true 
+    },
+    "java.configuration.updateBuildConfiguration": "interactive",
+    
+}

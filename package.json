@@ -1,0 +1,56 @@
+{
+	"name": "TimeLineList",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest",
+		"prettier": "prettier --write --single-quote --no-semi --trailing-comma es5 --print-width 80 \"app/**/*.js\"",
+		"lint": "eslint app",
+		"optimize": "node bettem.update.nodemodules.js",
+		"bundle-ios": "node node_modules/react-native/local-cli/cli.js bundle --entry-file index.js  --platform ios --dev false --bundle-output ./ios/bundle/bettemrn.jsbundle --assets-dest ./ios/bundle",
+		"build-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/out/index.bettemrn.android.bundle --assets-dest android/out/"
+	},
+	"dependencies": {
+		"babel-plugin-transform-runtime": "^6.23.0",
+		"moment": "^2.20.1",
+		"prop-types": "^15.6.0",
+		"react": "16.4.1",
+		"react-native": "^0.55.4",
+		"dva-core": "^1.3.0",
+		"react-native-largelist-v3": "^3.0.10",
+		"react-native-spring-scrollview": "^2.0.14",
+		"react-native-vector-icons": "^4.6.0",
+		"react-native-splash-screen": "^3.2.0",
+		"react-navigation": "^2.12.1",
+		"react-navigation-redux-helpers": "^2.0.5",
+		"react-redux": "^5.0.7"
+	},
+	"devDependencies": {
+		"babel-eslint": "^8.0.3",
+		"babel-jest": "^21.2.0",
+		"babel-plugin-import": "^1.6.3",
+		"babel-plugin-transform-decorators-legacy": "^1.3.4",
+		"babel-preset-react-native": "^4.0.0",
+		"eslint": "^4.13.0",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-plugin-babel": "^4.1.2",
+		"eslint-plugin-import": "^2.8.0",
+		"eslint-plugin-jsx-a11y": "^6.0.2",
+		"eslint-plugin-prettier": "^2.3.1",
+		"eslint-plugin-react": "^7.5.1",
+		"husky": "^0.14.3",
+		"jest": "^21.2.1",
+		"prettier": "^1.9.1",
+		"react-dom": "^16.2.0",
+		"react-test-renderer": "^16.2.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	},
+	"devBundleConfig": {
+		"resourceName": "index.ios",
+		"codePush": "false"
+	}
+}

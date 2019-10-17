@@ -1,0 +1,36 @@
+export const colors = {
+  primary: '#1baf84',
+  graybg: '#f5f5f5',
+  // 边框色
+  border_color_base: '#EEEEEE',
+  border_color_dark: '#cccddd',
+  grayText: '#888888',
+  white: '#ffffff',
+  black: '#404040',
+  textTitle: '#ffffff',
+  textContent: '#5a5a5a',
+  textSubContent: '#929292',
+  home_status_bar:'#F3FAFF',
+  ico1: '#79b458',
+  ico2: '#91cdbd',
+  ico3: '#409aa2',
+  ico4: '#9bd64c',
+  ico5: '#e0ae55',
+  ico6: '#26b6a6', 
+  ico7: '#ffb22d', 
+  ico8: '#f0e57e',
+  ico9: '#bfebec',
+  red:'#f51616',
+  cardTitle3:'#FFA201',
+  cardTitle4:'#9BD64C',
+  cardTitle5:'#91CDBD',
+  cardTitle6:'#1baf84',
+
+  wx:'#44b549',
+  transpant:'#00000000',
+  halfTranspant:'#00000077',
+  transpant2:'#00000022',
+  transpant9:'#00000099',
+
+  paleBlue:'#E3F9F3'
+}
